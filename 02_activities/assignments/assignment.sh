@@ -17,6 +17,7 @@ ls
 touch dir2/file1 dir2/file2 dir2/file3 dir2/file4 dir2/file5
 
 # 4. Append the words "Hello world" to dir2/file3
+echo "Hello world" >> dir2/file3
 
 # 5. Verify that file3 contains the words "hello world" by printing the contents of the file in the terminal
 
